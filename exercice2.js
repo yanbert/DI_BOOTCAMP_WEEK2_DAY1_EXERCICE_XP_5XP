@@ -7,6 +7,13 @@ const myWatchedSeries = ["black mirror", "money heist", "the big bang theory"];
 let myWatchedSeriesLength = myWatchedSeries.length;
 
 let myWatchedSeriesSentence = ["wakanda forever", "is", "the best"];
+/**
+Correcteur: Yannick GOUGUIA
+
+Merci de bien formater ton code.
+
+la variable myWatchedSeriesSentence est un tableau pour un meilleur affichage il faut le convertir en string en utilisant la methode toString
+*/
 
 console.log("I watched", myWatchedSeriesLength, "series", ":", myWatchedSeriesSentence);
 
@@ -35,6 +42,12 @@ console.log(myWatchedSeries);
 
 /* retourner la troisième lettre de "money heist" */
 
+/**
+Correcteur: Yannick GOUGUIA
+
+Je ne suis pas sur que cette reponse retourne bien le 3e caractere du mot.
+essaie d'utiliser chartAt
+*/
 console.log(myWatchedSeries[2][3]);
 
 /* affichage du tableau */
